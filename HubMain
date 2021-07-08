@@ -110,6 +110,6 @@ local function MNQEF_fake_script()
 	wait(1.5)
 	script.Parent:TweenSize(UDim2.new(0,0,0,158), "Out", "Quad", 0.5, true)
 	wait(0.5)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/AspireXploitz/AspireXploitz/main/SourceC"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AspireXploitz/AspireHub/main/SC"))()
 end
 coroutine.wrap(MNQEF_fake_script)()
